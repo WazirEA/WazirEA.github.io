@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wazir Expert Advisor</title>
+    <title>Wazir Expert Advisor - Your New Trading Companion</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Welcome to WazirAlgo EA</h1>
-        <p>One stop place to answer all your queries for WazirAlgo Expert Advisor on Exness.</p>
+        <h1>Your Trusted WazirAlgo EA</h1>
+        <p>Explore the features of the WazirAlgo Expert Advisor and maximize your trading on Exness.</p>
     </header>
 
     <!-- Main Content Section -->
@@ -164,9 +164,13 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 WazirEA. All rights reserved.</p>
+        <p>&copy; <span id="currentYear"></span> WazirEA. All rights reserved.</p>
     </footer>
 
+    <script>
+        // Update the year dynamically
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
     <script src="script.js"></script>
 </body>
 
