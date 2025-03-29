@@ -1,21 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some basic styling */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
+/* Header styling */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #007BFF;
+    color: white;
     text-align: center;
+    padding: 20px 0;
 }
 
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #ddd;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Footer styling */
 footer {
     text-align: center;
-    padding: 10px;
     background-color: #333;
-    color: #fff;
+    color: white;
+    padding: 10px 0;
+    margin-top: 40px;
 }
